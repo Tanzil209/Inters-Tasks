@@ -1,0 +1,33 @@
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  /* //Clip any overflowing content within the rounded table  */
+  border: 1px solid black;
+}
+td,
+th {
+  padding: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+th {
+  text-align: center;
+}
+td {
+  text-align: left;
+}
+
+#one {
+  border-radius: 12px;
+}
+#four {
+  border-radius: 40px;
+}
+#three {
+  border-radius: 22px;
+  padding: 20px;
+}
+#five {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
