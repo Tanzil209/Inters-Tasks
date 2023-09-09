@@ -11,9 +11,6 @@
       crossorigin="anonymous"
     />
     <style>
-      body {
-        text-align: center;
-      }
       .use,
       .ps {
         width: 500px;
@@ -30,7 +27,7 @@
         width: 500px;
       }
       img {
-        align-items: center;
+        text-align: center;
       }
       .btn {
         float: left;
@@ -41,7 +38,7 @@
       span {
         float: left;
       }
-      div {
+      .main {
         margin: auto;
         padding: 0;
         height: 70px;
@@ -50,10 +47,13 @@
     </style>
   </head>
   <body>
-    <div>
-      <img src="images.png" alt="user login" /> <br /><br />
+    <div class="main">
+      <div style="text-align: center">
+        <img src="images.png" alt="user login" /> <br /><br />
+      </div>
+
       <form action="">
-        <label for="user"><b>Username</b></label>
+        <label for="user" style="text-align: left"><b>Username</b></label>
         <br />
         <input
           type="text"
@@ -62,7 +62,7 @@
           placeholder="Enter Username"
         />
         <br /><br />
-        <label for="pass"><b>Password</b></label>
+        <label for="pass" style="text-align: left"><b>Password</b></label>
         <br />
         <input
           type="text"
@@ -71,6 +71,7 @@
           class="ps"
           placeholder="Enter Password"
         /><br /><br />
+
         <button class="btnlog btn-success">Login</button>
         <br /><br />
         <span
